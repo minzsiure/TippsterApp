@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4B852A268275B1006F9F4D /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4B8529268275B1006F9F4D /* TipViewController.m */; };
 		8A8B0E532682647C00AA7FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B0E522682647C00AA7FEB /* AppDelegate.m */; };
 		8A8B0E562682647C00AA7FEB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B0E552682647C00AA7FEB /* SceneDelegate.m */; };
-		8A8B0E592682647C00AA7FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B0E582682647C00AA7FEB /* ViewController.m */; };
 		8A8B0E5C2682647C00AA7FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8B0E5A2682647C00AA7FEB /* Main.storyboard */; };
 		8A8B0E5E2682647D00AA7FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8B0E5D2682647D00AA7FEB /* Assets.xcassets */; };
 		8A8B0E612682647D00AA7FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8B0E5F2682647D00AA7FEB /* LaunchScreen.storyboard */; };
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A4B8528268275B1006F9F4D /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		8A4B8529268275B1006F9F4D /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		8A8B0E4E2682647C00AA7FEB /* TippyAppEva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TippyAppEva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8B0E512682647C00AA7FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A8B0E522682647C00AA7FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A8B0E542682647C00AA7FEB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		8A8B0E552682647C00AA7FEB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		8A8B0E572682647C00AA7FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A8B0E582682647C00AA7FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A8B0E5B2682647C00AA7FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A8B0E5D2682647D00AA7FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A8B0E602682647D00AA7FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,9 +108,9 @@
 				8A8B0E522682647C00AA7FEB /* AppDelegate.m */,
 				8A8B0E542682647C00AA7FEB /* SceneDelegate.h */,
 				8A8B0E552682647C00AA7FEB /* SceneDelegate.m */,
-				8A8B0E572682647C00AA7FEB /* ViewController.h */,
-				8A8B0E582682647C00AA7FEB /* ViewController.m */,
 				8A8B0E5A2682647C00AA7FEB /* Main.storyboard */,
+				8A4B8528268275B1006F9F4D /* TipViewController.h */,
+				8A4B8529268275B1006F9F4D /* TipViewController.m */,
 				8A8B0E5D2682647D00AA7FEB /* Assets.xcassets */,
 				8A8B0E5F2682647D00AA7FEB /* LaunchScreen.storyboard */,
 				8A8B0E622682647D00AA7FEB /* Info.plist */,
@@ -266,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A8B0E592682647C00AA7FEB /* ViewController.m in Sources */,
 				8A8B0E532682647C00AA7FEB /* AppDelegate.m in Sources */,
 				8A8B0E642682647D00AA7FEB /* main.m in Sources */,
+				8A4B852A268275B1006F9F4D /* TipViewController.m in Sources */,
 				8A8B0E562682647C00AA7FEB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
